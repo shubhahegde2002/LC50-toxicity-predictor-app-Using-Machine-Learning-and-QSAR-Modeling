@@ -9,7 +9,7 @@ K-Nearest Neighbours
 
 Multiple Linear Regression
 
-XGBooost Regressor
+XGBoost Regressor
 
 Support Vector Machine Regressor
 
