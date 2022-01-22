@@ -16,4 +16,5 @@ Bayesian Ridge Regressor
 
 ## After Model Development
 Calculate Training time, Prediction time, R squared value, MAE value, RMSE value for every model, save results to csv file and serialize most optimal model using pickle dump.
-Dyanmically load data into  database by integrating Python with MySQL and setting up a Flask Web Application for Model Deployment Using Heroku.
+
+Dynamically load data into  database by integrating Python with MySQL and setting up a Flask Web Application for Model Deployment Using Heroku.
