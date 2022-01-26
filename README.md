@@ -18,7 +18,7 @@ Random Forest Regressor
 Bayesian Ridge Regressor
 
 ## After Model Development
-Calculate Training time, Prediction time, R squared value, MAE value, RMSE value for every model, save results to csv file and serialize most optimal model using pickle dump.
+Calculate Predictions, Training time, Prediction time, R squared value, MAE value, RMSE value for every model, save results to csv file and serialize most optimal model using pickle dump.
 
 Dynamically load data into  database by integrating Python with MySQL; Save logging times of code to a database in MySQL.
 
