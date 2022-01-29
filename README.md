@@ -22,4 +22,8 @@ Calculate Predictions, Training time, Prediction time, R squared value, MAE valu
 
 Dynamically load data into  database by integrating Python with MySQL; Save logging times of code to a database in MySQL.
 
-Setting up a Flask Web Application for Model Deployment Using Heroku.
+Setting up a Flask Web Application
+
+Front-End Development of Website using HTML and CSS 
+
+Model Deployment Using Heroku.
