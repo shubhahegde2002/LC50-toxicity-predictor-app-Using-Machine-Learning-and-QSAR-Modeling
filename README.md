@@ -24,6 +24,6 @@ Dynamically load data into  database by integrating Python with MySQL; Save logg
 
 Setting up a Flask Web Application
 
-Front-End Development of Website using HTML and CSS 
+Front-End Development of Website using HTML and CSS, Jinja for Templating Engine 
 
 Model Deployment Using Heroku.
