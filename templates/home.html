@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    h4 {
+      position: absolute;
+      right:0px;
+      top: 0px;
+    }
+    
+    div { 
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      margin: -100px 0 0 -100px;
+      width:400px;
+      height:500px;
+    }
+  </style>
+  <h4> Shubha Hegde</h4>
+  <title>Predict LC50 Value</title>
+  
+  
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1 style="color:silver" >LC50 Value </h1>        
+  <h3 style="color:thistle">  CIC0 |  SM1_Dz(Z)  |  GATS1i  |  NdsCH  |  NdssC  |  MLOGP </h3>
+  <br/>
+
+     <!-- Enter Chemical Descriptors  -->
+    <form action="{{ url_for('predict')}}"method="POST" autocomplete="off">
+        <label for='cic0'>Enter Chemical Descriptors</label><input type="text" name="cic0" placeholder="CIC0" required="required" /><br>
+        <input type="text" name="smi_dz(z)" placeholder="SM1_Dz(Z)" required="required" /><br>
+        <input type="text" name="gats1i" placeholder="GATS1i" required="required" /><br>
+        <input type="text" name="ndsch" placeholder="NdsCH" required="required" /><br>
+        <input type="text" name="ndssc" placeholder="NdssC" required="required" /><br>
+        <input type="text" name="mlogp" placeholder="MLOGP" required="required" /><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{pred}}
+
+</body>
+</html>
