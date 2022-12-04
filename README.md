@@ -1,5 +1,4 @@
 # Prediction of LC50 value QSAR models
-## Visit my LC50 Predictor App : https://lc50-value-toxicity.herokuapp.com/
 
 Prediction of LC50 value using Quantitative structure activity relationship models ( QSAR models ).
 Develop quantitative regression QSAR models to predict acute aquatic toxicity towards the fish fathead minnow ( Pimephales promelas ) on a set of 908 chemicals based on 6 molecular descriptors.
